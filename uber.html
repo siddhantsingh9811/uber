@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>uber</title>
+	<link rel="stylesheet" type="text/css" href="uber.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+<div class="z"></div>
+<div class="a"></div>
+<center><div class="b"></div></center>
+<div class="button">Begin</div>
+<script type="text/javascript" src="ityped.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	window.ityped.init(document.querySelector(".b"),{
+		strings : ["Welcome to an Amazing Experience"]
+
+	})
+	$(".button").click(function(){
+		window.location.replace("uber2.html");
+	})
+})
+</script>
+</body>
+</html>

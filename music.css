@@ -1,0 +1,115 @@
+body
+{
+background-color: black;
+}
+.button
+{
+height: 50px;
+width: 50px;
+clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+background-color: white;
+}
+
+.m1,.m2,.m3,.m4,.m5,.m6,.m7,.m8
+{
+	display: inline-block;
+height: 270px;
+width: 270px;
+}
+.m1
+{
+background: url("https://enjoythebeats.com/remixclub/wp-content/uploads/2017/04/linkin-park-heavy-remix.jpg");
+background-position: center;
+background-size: cover;
+}
+.m2
+{
+background: url("https://uniquemuse.files.wordpress.com/2017/02/onerepublic-lets-hurt-tonight-2016.jpg?w=300&h=300");
+background-position: center;
+background-size: cover;
+}
+.m3
+{
+background: url("http://www.luxemusic.su/2/wp-content/uploads/2016/09/LP-Swanky-Tunes-Going-Deeper-Lost-On-You-Sergey-Kutsuev-Mash-300x300.jpg");
+background-position: center;
+background-size: cover;
+}
+.m4
+{
+background: url("https://nhachot.info/wp-content/uploads/2017/05/600x600bb-272-300x300.jpg");
+background-position: center;
+background-size: cover;
+}
+.m5
+{
+background: url("https://images.rapgenius.com/16512ceddb45dc0e09614eb06cfdd499.1000x1000x1.jpg");
+background-position: center;
+background-size: cover;
+}
+.m6
+{
+background: url("http://static1.squarespace.com/static/58ab2fce20099e7487a18b2a/58afb8513e00be09d79cfce0/5943c5ef72af65def72752f3/1498593294912/imagine-dragons-walking-the-wire-song-lyrics-meaning.png?format=1000w");
+background-position: center;
+background-size: cover;
+}
+.m7
+{
+background: url("http://static.universal-music.de/asset_new/435030/60/view/c/Whatever-It-Takes.jpg");
+background-position: center;
+background-size: cover;
+}
+.m8
+{
+background: url("https://img.discogs.com/WgxuylOZ1WYDBiQbANFYMKFauZg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8572518-1465209814-2053.jpeg.jpg");
+background-position: center;
+background-size: cover;
+}
+.m1:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m2:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m3:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m4:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m5:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m6:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m7:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+.m8:hover
+{
+transform: scale(1.2);
+transition: 1s;
+cursor:pointer;
+}
+

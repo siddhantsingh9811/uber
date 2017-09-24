@@ -1,0 +1,15 @@
+canvas
+{
+
+top: 50%;
+left: 50%;
+}
+.button
+{
+height: 50px;
+width: 50px;
+align-content: center;
+background: url("http://kata.coderdojo.com/images/6/66/BackgroundbeltIcon.png");
+background-position: center;
+background-size: cover;
+}

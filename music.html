@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>music</title>
+	<link rel="stylesheet" type="text/css" href="music.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="button"></div>
+<center>
+<div class="m1"></div>
+<div class="m2"></div>
+<div class="m3"></div>
+<div class="m4"></div>
+<div class="m5"></div>
+<div class="m6"></div>
+<div class="m7"></div>
+<div class="m8"></div>
+</center>
+<center>
+<audio controls>
+	<source src="" type="audio/mpeg">
+</audio>
+</center>
+<script type="text/javascript">
+$(function(){
+	$(".m1").click(function(){
+		$("audio").attr("src","1.mp3");
+	});
+	$(".m2").click(function(){
+		$("audio").attr("src","2.mp3");
+	});
+	$(".m3").click(function(){
+		$("audio").attr("src","3.mp3");
+	});
+	$(".m4").click(function(){
+		$("audio").attr("src","4.mp3");
+	});
+	$(".m5").click(function(){
+		$("audio").attr("src","5.mp3");
+	});
+	$(".m6").click(function(){
+		$("audio").attr("src","6.mp3");
+	});
+	$(".m7").click(function(){
+		$("audio").attr("src","7.mp3");
+	});
+	$(".m8").click(function(){
+		$("audio").attr("src","8.mp3");
+	});
+
+})
+$(".button").click(function(){
+		window.location.replace("uber2.html");
+	})
+</script>
+</body>
+</html>
